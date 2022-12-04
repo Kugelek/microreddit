@@ -1,0 +1,15 @@
+@mixin border-shadow {
+  border: 1px solid #ccc;
+  -webkit-box-shadow: 2px 4px 7px 4px rgba(0, 0, 0, 0.13);
+  box-shadow: 2px 4px 7px 4px rgba(0, 0, 0, 0.13);
+  border-radius: 5px;
+}
+
+@mixin border-shadow-light {
+  border: 1px solid #ddd;
+  -webkit-box-shadow: 2px 4px 7px 4px rgba(0, 0, 0, 0.06);
+  box-shadow: 2px 4px 7px 4px rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+}
+
+$box-background: #efefef;
